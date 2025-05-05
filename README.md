@@ -2,6 +2,7 @@
 # 🎬 文字生成视频工具
 
 一款为自媒体创作者设计的 **全自动视频生成工具**，输入文本即可输出高质量视频，大幅提升内容创作效率。
+视频演示：<a href="https://leeseean.github.io/Text2Video/?t=23">https://leeseean.github.io/Text2Video/?t=23</a>
 
 <div align="center">
   <video controls width="80%">
