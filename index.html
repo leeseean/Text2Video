@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文字生成视频工具 - 演示</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .video-container {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        video {
+            width: 100%;
+            border-radius: 4px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 5px;
+            color: white;
+        }
+        .github-link {
+            display: inline-block;
+            background: #2c3e50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 4px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎬 文字生成视频工具</h1>
+    <p>一款为自媒体创作者设计的全自动视频生成工具，输入文本即可输出高质量视频</p>
+    
+    <div class="video-container">
+        <h2>📺 功能演示</h2>
+        <video controls poster="assets/cover.jpg">
+            <source src="assets/demo.mp4" type="video/mp4">
+            您的浏览器不支持视频标签，请<a href="assets/demo.mp4">下载视频</a>观看。
+        </video>
+    </div>
+
+    <h2>✨ 核心功能</h2>
+    <div class="features">
+        <div class="feature-card">
+            <h3>📝 智能分段</h3>
+            <p>自动将长文本拆分为适合视频展示的段落</p>
+        </div>
+        <div class="feature-card">
+            <h3>🖼️ 多源配图</h3>
+            <p>支持 Pexels API/百度图片/本地素材库</p>
+        </div>
+        <div class="feature-card">
+            <h3>🔊 多音色配音</h3>
+            <p>Edge TTS（免费）或百度语音合成（高精度）</p>
+        </div>
+    </div>
+
+    <h2>🛠 技术栈</h2>
+    <p>
+        <span class="badge" style="background: #3776AB">Python 3.8+</span>
+        <span class="badge" style="background: #FF0000">FFmpeg</span>
+        <span class="badge" style="background: #FF7C00">MoviePy</span>
+        <span class="badge" style="background: #0078D7">Edge TTS</span>
+        <span class="badge" style="background: #34A853">Pexels API</span>
+    </p>
+
+    <h2>🚀 快速开始</h2>
+    <ol>
+        <li>克隆仓库：<code>git clone https://github.com/leeseean/Text2Video</code></li>
+        <li>安装依赖：<code>pip install -r requirements.txt</code></li>
+        <li>运行程序：<code>python main.py</code></li>
+    </ol>
+
+    <a href="https://github.com/leeseean/Text2Video" class="github-link">⭐ 前往 GitHub 仓库</a>
+</body>
+</html>
