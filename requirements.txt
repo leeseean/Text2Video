@@ -1,0 +1,7 @@
+edge_tts==7.0.1
+gTTS==2.4.0
+moviepy==2.1.2
+pydub==0.25.1
+python-dotenv==1.1.0
+Requests==2.32.3
+speechrecognition==3.14.2
