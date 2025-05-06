@@ -2,14 +2,10 @@
 # 🎬 文字生成视频工具
 
 - 一款为自媒体创作者设计的 **全自动视频生成工具**，输入文本即可输出高质量视频，大幅提升内容创作效率。
-- 视频演示：<a href="https://leeseean.github.io/Text2Video/?t=23">https://leeseean.github.io/Text2Video/?t=23</a>
+## 🎥 视频演示
 
-<div align="center">
-  <video controls width="80%" src="https://leeseean.github.io/Text2Video/assets/demo.mp4">
-    <source src="[assets/demo.mp4](https://leeseean.github.io/Text2Video/assets/demo.mp4)" type="video/mp4">
-    您的浏览器不支持视频标签，请直接<a href="assets/demo.mp4">下载演示视频</a>。
-  </video>
-</div>
+[![YouTube 演示视频封面](https://img.youtube.com/vi/6ZHwECOm7fE/maxresdefault.jpg)](https://youtu.be/6ZHwECOm7fE?t=23 "点击观看演示视频")
+
 
 ---
 
